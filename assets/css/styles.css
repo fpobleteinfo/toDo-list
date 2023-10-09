@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    background-color: gainsboro;
+  }
+
+section{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+   
+}
+
+.input {
+    display: flex;
+    padding: 3rem 0 1rem 0 ;
+    gap: 2rem;
+}
+
+table, th, td {
+    border:1px dotted black;
+  }
+
+.totales{
+    display: flex;
+    gap: 10px;
+}
+
+.completadas{
+    display: flex;
+    gap: 10px;
+}
+
+.tabla-tareas{
+
+    padding-top: 1rem;
+
+}
+
+#total-tareas{
+    font-weight: bold;
+}
+
+#total-completadas{
+    font-weight: bold;
+}
+
+.input-tarea{
+
+    width: 100vh;
+    background-color: aliceblue;
+}
+
+button{
+    background-color: bisque;
+}
+
+button:hover{
+    cursor: pointer;
+}
